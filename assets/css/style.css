@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+}
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header ul {
+    padding: 0;
+    list-style: none;
+}
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #branding {
+    float: left;
+}
+header #branding h1 {
+    margin: 0;
+}
+header nav {
+    float: right;
+    margin-top: 10px;
+}
+.showcase {
+    min-height: 400px;
+    background: url('https://www.youtube.com/embed/dQw4w9WgXcQ?si=twI61ZGDECBr4ums') no-repeat 0 -400px;
+    text-align: center;
+    color: #fff;
+}
+.showcase h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+.showcase p {
+    font-size: 20px;
+}
+.form-container {
+    background: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form-container h2 {
+    margin-top: 0;
+}
+.form-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-container input[type="submit"] {
+    background: #333;
+    color: #fff;
+    border: 0;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.form-container input[type="submit"]:hover {
+    background: #555;
+}
+.reactions {
+    margin-top: 20px;
+}
+.reactions ul {
+    list-style: none;
+    padding: 0;
+}
+.reactions li {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.reactions li strong {
+    display: block;
+    margin-bottom: 5px;
+}
+.reactions form {
+    display: inline;
+}
